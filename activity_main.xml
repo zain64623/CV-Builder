@@ -1,0 +1,19 @@
+<ScrollView
+    ...>
+    <LinearLayout
+        android:orientation="vertical"
+        ...>
+
+        <!-- Profile Picture Section -->
+        <ImageView
+            android:id="@+id/profileImage"
+            .../>
+
+        <!-- Buttons for Options -->
+        <Button
+            android:id="@+id/btnPersonalDetails"
+            android:text="Personal Details"
+            .../>
+        <!-- Add 5 more buttons similarly -->
+    </LinearLayout>
+</ScrollView>
